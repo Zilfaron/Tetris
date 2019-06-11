@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="favicon.png" type="image/png" sizes="16x16">
+	<title>Tetris</title>
+	<link rel="stylesheet" href="build/style.css">
+</head>
+<body>
+	<div class="page-wrapper">
+		<div class="game-controls-wrapper">
+			<label>Grid: <input type="checkbox" class="grid-view-checkbox" checked></label>
+			<label>Dark Theme: <input type="checkbox" class="dark-theme-checkbox"></label>
+			<input type="button" value="Music" class="music-btn">
+			<input name="volume" type="range" class="music-volume-control" value="0" min="0" max="1" step="0.01" title="Volume">
+			<div class="scores-wrapper">
+				<span>Scores: </span><span class="scores"></span>
+			</div>
+			<p>Arrow left/right/down - move</p>
+			<p>R - rotate</p>
+			<p>P - pause</p>
+		</div>	
+		<canvas class="game-area"></canvas>
+	</div>
+
+	<script src="build/templates.min.js" async></script>
+	<script src="build/script.min.js" defer></script>
+</body>
+</html>
