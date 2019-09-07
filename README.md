@@ -1,2 +1,2 @@
 # DEMO
-https://zilfaron.github.io/Tetris/index.html
+https://dkorsukov.github.io/Tetris/index.html
